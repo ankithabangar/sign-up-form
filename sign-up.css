@@ -1,0 +1,135 @@
+@font-face {
+  font-family: my-font;
+  src: url(Norse-Bold.otf);
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  width: 200px;
+  padding: 5px;
+}
+
+.full-body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+.form {
+  background-color: #f4f4f4;
+  width: 50vw;
+  align-content: center;
+  flex-direction: column;
+}
+
+.form > h3 {
+  margin: 40px;
+  padding-right: 60px;
+}
+
+img {
+  height: 100vh;
+  width: 35vw;
+}
+.credits {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
+a {
+  color: #a06c4d;
+  text-decoration: underline;
+}
+.logo {
+  height: 130px;
+  position: absolute;
+  top: 12rem;
+  background-color: black;
+  opacity: 0.4;
+  color: white;
+  font-family: my-font, sans-serif;
+  font-size: 5rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.odin {
+  align-self: center;
+  height: 61px;
+}
+.image-details {
+  position: relative;
+}
+
+.details {
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 10px 40px;
+}
+img[alt="Odin logo"] {
+  height: 105px;
+  width: 5rem;
+}
+
+button {
+  background-color: #a06c4d;
+  border-radius: 10px;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  margin: 40px;
+}
+button + div {
+  padding-left: 40px;
+}
+.form-row {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.line-1,
+.line-2,
+.line-3 {
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: rgb(101, 101, 101);
+}
+
+input {
+  border-radius: 3px;
+  border-style: none;
+  height: 25px;
+}
+input:enabled {
+  border: rgb(212, 212, 212) 0.7px solid;
+}
+
+input:focus {
+  outline: none;
+  border: blue 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
